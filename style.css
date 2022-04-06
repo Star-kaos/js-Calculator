@@ -1,0 +1,39 @@
+body {
+    padding:0px;
+    margin:0px;
+}
+
+.main {
+    height:100vh;
+    width:100vw;
+    background-color: #222222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calcContainer {
+    width:30%;
+    height:70%;
+}
+
+.calcInputDiv {
+    width:100%;
+    height:15%;
+    background-color: white;
+    padding:-10px;
+}
+
+.calcBtns {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width:100%;
+}
+
+.calcBtn {
+    width:4em;
+    height:2em;
+    border:none;
+    margin-top:10px;
+}
